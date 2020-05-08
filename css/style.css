@@ -1,0 +1,29 @@
+h1 {
+  font-size: 2.5em;
+  font-family: 'Yellowtail', cursive;
+  text-align: left;
+  margin-left: 375px
+ 
+};
+
+* {
+  background: red;
+  
+  
+}
+body {
+  width: 600;
+  text-align: center;
+  margin: auto;
+  
+}
+#social-media{
+  margin-right: 375;
+  float:right;
+}
+
+.slashes_backgrndimg {
+  background-image: url("..img/hr-img.png");
+  background-repeat: repeat-x;
+  width: 960px;
+}
