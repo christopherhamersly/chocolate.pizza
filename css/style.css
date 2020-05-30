@@ -31,9 +31,24 @@ body {
   background-color: white;
   background-repeat: y;
   position: relative;
-  bottom: 210px;
-  margin-right: 30px;
-  margin-left: 30px;
+  bottom: 220px;
+  margin-right: 40px;
+  margin-left: 22px;
+
+}
+
+#hashmarks3{
+  opacity: 15%;
+  height: 12px;
+  background-color: white;
+  background-repeat: y;
+  position: relative;
+  right : 20px;
+  bottom: -17px;
+  margin-right: 160px;
+  margin-left: px;
+  width: 980px;
+  z-index: -1;
 
 }
 
@@ -49,7 +64,7 @@ h1 {
 
 h2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size:35px;
+  font-size:38px;
   font-weight: bold;
   text-align: left;
   margin-left: 30px;
@@ -88,7 +103,7 @@ h6 {
   padding-bottom: 6.5px;
   float: right;
   position: relative;
-  right: 50px;
+  right: 42px;
   bottom: 70px;
  font-family: 'Oswald', sans-serif;
  font-size: 15px;
@@ -104,7 +119,7 @@ h7 {
 
 #chopped {
   position: relative;
-  left: 400px;
+  left: 470px;
 }
 #social-media{
   float:right;
@@ -115,12 +130,6 @@ h7 {
   height: 80%;
   width: auto;
   
-}
-
-.slashes_backgrndimg {
-  background-image: url("img/hr-img.png");
-  background-repeat: repeat-x;
-  width: 960px;
 }
 
 #logo {
@@ -179,11 +188,6 @@ p {
   z-index: -10; 
 }
 
-ul {
-  list-style-type: square;
-}
-
-
 
 #author p {
   color: grey;
@@ -221,6 +225,11 @@ footer {
   opacity: 50%;
   height: 30px;
   padding: 20px;
+  background-color: white;
+  z-index: 10;
+  border-style: solid;
+  border-width: 15px;
+  border-color: white;
 }
 
 #logo {
